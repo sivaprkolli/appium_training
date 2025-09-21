@@ -14,7 +14,7 @@ public class OpenApplication {
         UiAutomator2Options uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName("Google Pixel 8 Pro");
         uiAutomator2Options.setPlatformName("Android");
-        uiAutomator2Options.setPlatformVersion("14.0");
+        uiAutomator2Options.setPlatformVersion("16.0");
         uiAutomator2Options.setAutomationName("UiAutomator2");
         uiAutomator2Options.setApp("C:/Users/Siva/Downloads/Android_SauceLab.apk");
         uiAutomator2Options.setAppPackage("com.swaglabsmobileapp");
