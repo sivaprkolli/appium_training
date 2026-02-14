@@ -23,10 +23,11 @@ public class GetAllProducts {
     @BeforeTest
     public void setup() throws MalformedURLException {
         XCUITestOptions xcuiTestOptions = new XCUITestOptions();
-        xcuiTestOptions.setDeviceName("iPhone 16 Pro");
-        xcuiTestOptions.setPlatformVersion("18.5");
+        xcuiTestOptions.setDeviceName("iPhone 16e");
+        xcuiTestOptions.setPlatformVersion("26.0");
         xcuiTestOptions.setPlatformName("iOS");
         xcuiTestOptions.setAutomationName("XCUITest");
+        xcuiTestOptions.setCapability("showXcodeLog", true);
         xcuiTestOptions.setApp(System.getProperty("user.dir")+ "/src/main/resources/SauceLabs.app");
 
         driver = new IOSDriver(new URL("http://127.0.0.1:4723"), xcuiTestOptions);

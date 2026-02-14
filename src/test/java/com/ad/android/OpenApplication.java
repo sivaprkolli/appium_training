@@ -16,9 +16,9 @@ public class OpenApplication {
         uiAutomator2Options.setPlatformName("Android");
         uiAutomator2Options.setPlatformVersion("16.0");
         uiAutomator2Options.setAutomationName("UiAutomator2");
-        uiAutomator2Options.setApp("C:/Users/Siva/Downloads/Android_SauceLab.apk");
-        uiAutomator2Options.setAppPackage("com.swaglabsmobileapp");
-        uiAutomator2Options.setAppWaitActivity("com.swaglabsmobileapp.MainActivity");
+        uiAutomator2Options.setApp("/Users/shiva/Documents/appium_training/src/main/resources/NoBroker.apk");
+        uiAutomator2Options.setAppPackage("com.nobroker.app");
+        uiAutomator2Options.setAppWaitActivity("com.nobroker.app.activities.NBLauncherActivity");
         AndroidDriver androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),uiAutomator2Options);
     }
 }
